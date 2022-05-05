@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header__logo {
+    display:flex;
+    justify-content: center;
+}
+
+.header__navegacion {
+    display:flex;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.destacado {
+    color: violet;
+}
+
+.footer__redes {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.grid__container {
+    display: none;
+}
