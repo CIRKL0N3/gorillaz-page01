@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #fff59d;
+}
+
+/* Estilos de Navegación */
+
+.header__navegacion {
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.logo__navegacion {
+    cursor: pointer;
+}
+
+.logo__navegacion img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.logo__navegacion img:hover {
+    transform: scale(1.1);
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav__links li:hover {
+    transform: scale(1.1);
+}
+
+.nav__links a {
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+
+.nav__links a:hover {
+    color: #2ef5b2;
+}
+
+.btn button {
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn button:hover {
+    background-color: #e2f1f8;
+    color: #2ef5b2;
+    transform: scale(1.1);
+}
+
+/* Fin de los estilos de Navegación */
+
+.destacado {
+    color: violet;
+}
+
+.footer__redes {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.grid__container {
+    display: none;
+}
