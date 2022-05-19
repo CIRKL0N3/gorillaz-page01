@@ -23,37 +23,26 @@
                 <li><a href="discography.html">Discography</a></li>
             </ul>
         </nav>
-        <a href="contact.html" class="btn"><button>Contact</button></a>
+        <a href="contact.html" class="btn"><button>Sign</button></a>
     </header>
     <main>
         <!-- CONTENIDO DE LA PÁGINA -->
         <section>
-            <h1>Esta sección es el medio de contacto</h1>
             <form>
-                <div>
-                    <label for="Nombre">Nombre</label>
-                    <input placeholder="Nombre">
-                </div>    
-                <div>
-                    <label for="Correo">Correo</label>
-                    <input placeholder="Correo electrónico"> 
-                </div>     
-                <div>
-                    <label for="Número">Número</label>
-                    <input placeholder="Número telefónico">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-                <div>
-                    ¿Desea recibir el Newslatter? <input type="checkbox">
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-                <div>
-                    <textarea>
-        
-                    </textarea>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <p>
-                    <input type="submit" value="Enviar formulario">
-                    <input type="reset" value="Limpiar formulario">
-                </p>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </section>
     </main>
