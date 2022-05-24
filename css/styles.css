@@ -119,11 +119,6 @@ body {
     color: violet;
 }
 
-.footer__redes img {
-    display:inline-flex;
-    flex-direction: center;
-    justify-content: center;
-    align-items: flex-end;
-}
+
 
 
