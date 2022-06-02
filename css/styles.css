@@ -1,16 +1,4 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Nunito', sans-serif;
-  font-size: 20px; }
-
-body {
-  background-color: #fff59d; }
-
-/* Estilos de Navegación */
 .header__navegacion {
   background-color: #1b3039;
   display: flex;
@@ -25,8 +13,8 @@ body {
     height: 70px;
     width: auto;
     transition: all 0.3s; }
-  .logo__navegacion img:hover {
-    transform: scale(1.1); }
+    .logo__navegacion img:hover {
+      transform: scale(1.1); }
 
 .nav__links {
   list-style: none; }
@@ -56,7 +44,19 @@ body {
     color: #2ef5b2;
     transform: scale(1.1); }
 
-/* Fin de los estilos de Navegación */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px; }
+
+body {
+  background-color: #fff59d; }
+
+.destacado {
+  color: violet; }
+
 .grid__item {
   display: flex;
   align-items: stretch;
@@ -68,7 +68,6 @@ body {
   background-position: center;
   background-repeat: no-repeat; }
   .grid__item:hover {
-    filter: opacity(0.9);
     transform: scale(1.04); }
 
 .grid__container {
@@ -84,6 +83,3 @@ body {
     grid-column: span 2; }
   .tall {
     grid-row: span 2; } }
-
-.destacado {
-  color: violet; }

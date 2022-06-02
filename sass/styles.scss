@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 @import 'variables';
+@import 'sasscript';
 @import 'header';
 @import 'footer';
 
@@ -15,67 +16,11 @@ body {
     background-color: #fff59d;
 }
 
-/* Estilos de Navegación */
-
-.header__navegacion {
-    background-color: $color-secundario;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
+.destacado {
+    color: violet;
 }
 
-.logo__navegacion {
-    cursor: pointer;
-    & img {
-        height: 70px;
-        width: auto;
-        transition: all 0.3s;
-    }
-    & img:hover {
-    transform: scale(1.1);
-    }
-}
-
-.nav__links {
-    list-style: none;
-    li {
-        display: inline-block;
-        padding: 0 20px;
-    &:hover {
-        transform: scale(1.1);
-    }
-    }
-    a {
-        font-size: 700;
-        color: #eceff1;
-        text-decoration: none; 
-    &:hover {
-        color:#2ef5b2;
-    }
-    }
-}
-
-.btn button {
-    font-weight: 700;
-    color: #1b3039;
-    padding: 9px 25px;
-    background: #eceff1;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    &:hover {
-        background-color: #e2f1f8;
-        color: #2ef5b2;
-        transform: scale(1.1); 
-    }
-}
-
-
-/* Fin de los estilos de Navegación */
-
+// Estilos de la galería //
 .grid__item {
     display: flex;
     align-items: stretch;
@@ -87,7 +32,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     &:hover {
-        filter: opacity(0.9);
         transform: scale(1.04);
     }
 }
@@ -111,6 +55,4 @@ body {
     }
 }
 
-.destacado {
-    color: violet;
-}
+// Fin de los estilos //
